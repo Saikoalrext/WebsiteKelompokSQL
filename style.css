@@ -13,7 +13,6 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    max-width: 100%;
 }
 hr{
     margin-left: 10px;
@@ -208,13 +207,6 @@ p {
     .biodata_img_container{
         border: solid 1px white;
     }
-    body{
-        overflow-x: hidden !important;
-        max-width: 100%;
-    }
-    .main_container{
-        overflow-x: hidden !important;
-    }
 }
 @media (max-width: 639px) {
     header{
@@ -259,13 +251,6 @@ p {
         float: none !important;
         margin: 1em auto !important;
         max-width: 100%;
-    }
-    body{
-        overflow-x: hidden !important;
-        max-width: 100%;
-    }
-    .main_container{
-        overflow-x: hidden !important;
     }
 }
 body.dark-mode{
@@ -335,6 +320,12 @@ body.dark-mode .title_link:hover{
     color: #74a1e8;
     margin: 0;
     padding: 0;
+}
+.link:active{
+    color: blueviolet;
+}
+.link:visited{
+    color: blueviolet;
 }
 .link_p{
     margin: 0;
@@ -437,5 +428,4 @@ body.dark-mode .link1{
 }
 .link1:hover{
     color: #74a1e8;
-
 }
