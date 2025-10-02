@@ -207,6 +207,9 @@ p {
     .biodata_img_container{
         border: solid 1px white;
     }
+    body{
+        overflow-x: hidden;
+    }
 }
 @media (max-width: 639px) {
     header{
@@ -251,6 +254,9 @@ p {
         float: none !important;
         margin: 1em auto !important;
         max-width: 100%;
+    }
+    body{
+        overflow-x: hidden;
     }
 }
 body.dark-mode{
@@ -422,4 +428,5 @@ body.dark-mode .link1{
 }
 .link1:hover{
     color: #74a1e8;
+
 }
