@@ -208,7 +208,10 @@ p {
         border: solid 1px white;
     }
     body{
-        overflow-x: hidden;
+        overflow-x: hidden !important;
+    }
+    .main_container{
+        overflow-x: hidden !important;
     }
 }
 @media (max-width: 639px) {
@@ -256,7 +259,10 @@ p {
         max-width: 100%;
     }
     body{
-        overflow-x: hidden;
+        overflow-x: hidden !important;
+    }
+    .main_container{
+        overflow-x: hidden !important;
     }
 }
 body.dark-mode{
