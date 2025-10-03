@@ -224,6 +224,10 @@ p {
         width: 270px;
         box-sizing: border-box;
     }
+    .infobox{
+        display: block;
+
+    }
 }
 @media (max-width: 639px) {
     header{
@@ -427,6 +431,7 @@ body.dark-mode .link1{
     width: 300px;
     padding-bottom: 10px;
     max-width: 100%;
+    margin: 0 0 1em 1em;
 
     float: right;
     margin: 0 0 1em 1em;
