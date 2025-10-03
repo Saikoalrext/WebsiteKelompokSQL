@@ -12,6 +12,8 @@
 body {
     margin: 0;
     padding: 0;
+    max-width: 100%;
+    width: 100vw;
     overflow-x: hidden;
 }
 hr{
@@ -209,7 +211,7 @@ p {
     }
     body{
         max-width: 100%;
-        width: 100vw;
+        width: 100%;
         overflow-x: hidden;
     }
 }
@@ -256,11 +258,6 @@ p {
         float: none !important;
         margin: 1em auto !important;
         max-width: 100%;
-    }
-    body{
-        max-width: 100%;
-        width: 100vw;
-        overflow-x: hidden;
     }
 }
 body.dark-mode{
@@ -438,7 +435,4 @@ body.dark-mode .link1{
 }
 .link1:hover{
     color: #74a1e8;
-}
-* {
-    box-sizing: border-box;
 }
