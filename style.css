@@ -270,12 +270,12 @@ p {
         text-align: center;
         width: 100%;
     }
-    .second_container_default1 img,
-    .second_container_default2 img {
+    .second_container_default1 img, .second_container_default2 img {
         max-width: 100%;
         height: auto;
         display: block;
         margin: 0 auto;
+        padding: 0;
     }
     .infobox_caption2 {
         width: auto !important;
