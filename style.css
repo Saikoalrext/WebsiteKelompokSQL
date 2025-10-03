@@ -13,8 +13,6 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    width: 100%;
-    max-width: 100vw;
 }
 hr{
     margin-left: 10px;
@@ -57,8 +55,6 @@ nav{
     display: flex;
     padding-top: 0;
     margin: 0px;
-    width: 100%;
-    max-width: 100vw;
 }
 .left_container {
     margin-left: 30px;
@@ -72,7 +68,6 @@ nav{
     height: auto;
     max-height: 90vh;
     overflow-y: auto;
-    position: -webkit-sticky;
 }
 summary{
     font-size: 17px;
@@ -88,8 +83,6 @@ summary:hover{
 .second_container {
     padding-left: 25px;;
     max-width: 72vmax;
-    width: 100%;
-    overflow-x: hidden;
 }
 .left_container a {
     text-decoration: none;
@@ -149,8 +142,8 @@ p {
 .biodata_hr {
     margin-left: 5px;
     margin-right: 5px;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    margin-bottom: none;
+    padding-bottom: none;
 }
 @media (max-width: 1120px) {
     header{
@@ -165,8 +158,8 @@ p {
     }
     .hamburger_bar{
         display: flex;
-        margin: 0;
-        padding: 0;
+        margin: none;
+        padding: none;
     }
     .hamburger_bar h2 {
         font-family: Cinzel;
@@ -181,8 +174,8 @@ p {
         margin-top: 20px;
         background-color: white;
         border: 1px solid black;
-        margin-bottom: 0;
-        padding-bottom: 0;
+        margin-bottom: none;
+        padding-bottom: none;
         position: fixed;
         border-radius: 1px;
     }
@@ -214,6 +207,11 @@ p {
     .biodata_img_container{
         border: solid 1px white;
     }
+    body{
+        max-width: 100%;
+        width: 100vw;
+        overflow-x: none;
+    }
 }
 @media (max-width: 639px) {
     header{
@@ -239,31 +237,30 @@ p {
         max-width: 100%;
         padding-left: 10px;
         padding-right: 10px;
-        width: 100%;
     }
-    .infobox, .infobox0, .infobox2 {
-        max-width: 100% !important;
-        width: 100% !important;
-        margin: 1em 0 !important;
+    .infobox{
+        display: block;
         float: none !important;
+        width: fit-content !important;
+        max-width: 100%;
+        margin: auto !important;
+    }
+    .infobox0{
+        display: block;
+        float: none !important;
+        margin: 1em auto !important;
+        max-width: 100%;
+    }
+    .infobox2{
+        display: block;
+        float: none !important;
+        margin: 1em auto !important;
+        max-width: 100%;
     }
     body{
-        overflow-x: hidden;
-        width: 100%;
-    }
-    .biodata_container {
-        flex-direction: column;
-        align-items: flex-start;
-        margin-right: 0;
-    }
-    .biodata_img_container {
-        align-self: center;
-        margin-top: 15px;
-    }
-    table {
         max-width: 100%;
-        display: block;
-        overflow-x: auto;
+        width: 100vw;
+        overflow-x: none;
     }
 }
 body.dark-mode{
@@ -441,13 +438,4 @@ body.dark-mode .link1{
 }
 .link1:hover{
     color: #74a1e8;
-}
-.infobox, .infobox0, .infobox2 {
-    max-width: 100%
-}
-* {
-    box-sizing: border-box;
-}
-.infobox, .infobox0, .infobox2 {
-    max-width: 100%;
 }
