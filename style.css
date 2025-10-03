@@ -264,7 +264,36 @@ p {
         width: 100%;
         overflow-x: hidden;
     }
+    .second_container_default1, .second_container_default2 {
+        transform: translateX(0) !important;
+        text-align: center;
+        width: 100%;
+    }
+    .second_container_default1 img,
+    .second_container_default2 img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    .infobox_caption2 {
+        width: auto !important;
+        max-width: 100%;
+        text-align: center;
+    }
 
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .infobox, .infobox0, .infobox2 {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box;
+    }
+    audio {
+        max-width: 100%;
+    }
 }
 body.dark-mode{
     background-color: #121212;
