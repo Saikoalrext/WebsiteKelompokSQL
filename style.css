@@ -231,7 +231,7 @@ p {
         overflow-y: auto;
         background-color: white;
         transform: translateX(-150%);
-        max-width: 30%;
+        max-width: 40%;
         box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
         z-index: 999;
     }
