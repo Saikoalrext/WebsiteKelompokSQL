@@ -293,7 +293,9 @@ p {
         box-sizing: border-box;
     }
     audio {
+        width: 100%;
         max-width: 100%;
+        box-sizing: border-box;
     }
     html {
         overflow-x: hidden;
@@ -474,4 +476,7 @@ body.dark-mode .link1{
 }
 .link1:hover{
     color: #74a1e8;
+}
+* {
+    box-sizing: border-box;
 }
