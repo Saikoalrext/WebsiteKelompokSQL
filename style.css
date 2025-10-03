@@ -439,3 +439,6 @@ body.dark-mode .link1{
 .link1:hover{
     color: #74a1e8;
 }
+* {
+    box-sizing: border-box;
+}
