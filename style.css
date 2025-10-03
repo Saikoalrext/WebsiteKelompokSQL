@@ -203,6 +203,12 @@ p {
         padding-left: 30px;
         padding-right: 30px;
     }
+    .infobox0 table{
+        margin: 0 auto;
+    }
+    .infobox2 table{
+        margin: 0 auto;
+    }
     .biodata_string{
         max-width: 300px;
     }
@@ -213,6 +219,10 @@ p {
         max-width: 100%;
         width: 100%;
         overflow-x: hidden;
+    }
+    audio {
+        width: 270px;
+        box-sizing: border-box;
     }
 }
 @media (max-width: 639px) {
@@ -231,7 +241,7 @@ p {
         overflow-y: auto;
         background-color: white;
         transform: translateX(-150%);
-        max-width: 40%;
+        max-width: 30%;
         box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
         z-index: 999;
     }
@@ -245,19 +255,32 @@ p {
         float: none !important;
         width: fit-content !important;
         max-width: 100%;
-        margin: auto !important;
+        margin: 1em auto !important;
+        max-width: 100%;
+        box-sizing: border-box;
+
+    }
+    .infobox table{
+        margin: 0 auto;
     }
     .infobox0{
         display: block;
         float: none !important;
         margin: 1em auto !important;
         max-width: 100%;
+        box-sizing: border-box;
+    }
+    .infobox0 table{
+        margin: 0 auto;
     }
     .infobox2{
         display: block;
         float: none !important;
         margin: 1em auto !important;
         max-width: 100%;
+    }
+    .infobox2 table{
+        margin: 0 auto;
     }
     body{
         position: relative;
@@ -287,14 +310,8 @@ p {
         max-width: 100%;
         height: auto;
     }
-    .infobox, .infobox0, .infobox2 {
-        width: 100% !important;
-        max-width: 100% !important;
-        box-sizing: border-box;
-    }
     audio {
-        width: 100%;
-        max-width: 100%;
+        width: 270px;
         box-sizing: border-box;
     }
     html {
