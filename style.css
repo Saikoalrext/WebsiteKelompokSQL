@@ -259,6 +259,12 @@ p {
         margin: 1em auto !important;
         max-width: 100%;
     }
+    body{
+        max-width: 100%;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
 }
 body.dark-mode{
     background-color: #121212;
